@@ -1,58 +1,51 @@
-body{
-    background-color: aquamarine;
-
-h1{
-    font:bolder;
-    font-family: 'Times New Roman', Times, serif;
-    font-size:larger
+body {
+    background-color: rgb(178, 211, 200);
 }
 
-
-h2, h3 {
-    color: #333;
+h1 {
+    font:bolder;
+    font-family: 'Times New Roman', Times, serif;
+    font-size:larger;
+    color: #052f5c;
     text-align: center;
+}
+
+h2 {
+    font-size: larger;
+    color: #000;
+    text-align: justify;
     padding: 10px;
 }
 
-/* Estilo para parágrafos */
 p {
-    color: #666;
+    font-size: small;
+    color: #000;
     line-height: 1.6;
     padding: 10px;
 }
 
-/* Estilo para links */
 a {
-    color: #007BFF;
-    text-decoration: none;
+    color: #1936d8;
+    font-size: x-small;
 }
 
-a:hover {
-    text-decoration: underline;
-}
-
-/* Estilo para imagens */
 img {
+    padding: 10px;
     max-width: 100%;
     height: auto;
 }
 
-/* Estilo para seções */
 section {
     margin: 20px;
     padding: 20px;
-    background-color: #fff;
+    background-color: #70a197;
     border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-}
+    }
 
-/* Estilo para o rodapé */
 footer {
-    background-color: #333;
-    color: white;
+    background-color: #898989;
+    font-size: xx-small;
+    font: 1em sans-serif;
     text-align: center;
-    padding: 10px;
-    position: fixed;
-    bottom: 0;
-    width: 100%;
+    padding: 5px;
 }
