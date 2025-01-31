@@ -11,33 +11,36 @@ h1 {
 }
 
 h2 {
-    font-size: larger;
+    font-size: x-large;
     color: #000;
-    text-align: justify;
+    text-align: center;
     padding: 10px;
 }
 
 p {
-    font-size: small;
+    font-size: medium;
     color: #000;
     line-height: 1.6;
     padding: 10px;
+    text-align: center;
 }
 
 a {
     color: #1936d8;
-    font-size: x-small;
+    font-size: medium;
+    align-items: center;
 }
 
 img {
     padding: 10px;
-    max-block-size: 100px;
+    max-block-size: 200px;
+    align-items: center;
 }
 
 section {
     margin: 20px;
     padding: 20px;
-    background-color: #70a197;
+    background-color: #24443e;
     border-radius: 8px;
     }
 
