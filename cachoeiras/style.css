@@ -28,13 +28,15 @@ p {
 a {
     color: #1936d8;
     font-size: medium;
-    text-align: center;
+    align-self: center;
+        
 }
 
 img {
-    padding: 10px;
-    max-block-size: 200px;
-    align-items: center;
+    padding-left: 200px;
+    max-block-size: 300px;
+    align-self: center;
+        
 }
 
 section {
@@ -46,7 +48,7 @@ section {
 
 footer {
     background-color: #898989;
-    font-size: xx-small;
+    font-size: small;
     font: 1em sans-serif;
     text-align: center;
     padding: 5px;
