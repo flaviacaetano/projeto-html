@@ -5,7 +5,7 @@ body {
 h1 {
     font:bolder;
     font-family: 'Times New Roman', Times, serif;
-    font-size:larger;
+    font-size: x-large;
     color: #052f5c;
     text-align: center;
 }
@@ -31,8 +31,7 @@ a {
 
 img {
     padding: 10px;
-    max-width: 100%;
-    height: auto;
+    max-block-size: 100px;
 }
 
 section {
