@@ -1,3 +1,20 @@
+header {
+    font-family: 'Lucida Sans', Verdana, sans-serif;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #2c11c5;
+    color: rgba(126, 118, 118, 0.147);
+    padding: 16px;
+}
+
+main {
+    background-color: #807062;
+    padding: 16px;
+    color: white;
+    font-family: 'Lucida Sans', Verdana, sans-serif;
+  }
+  
 body {
     background-color: rgb(178, 211, 200);
 }
@@ -26,10 +43,9 @@ p {
 }
 
 a {
+    justify-content: space-around
     color: #1936d8;
-    font-size: medium;
-    align-items: center;
-        
+    font-size: medium;        
 }
 
 img {
@@ -44,6 +60,10 @@ section {
     padding: 20px;
     background-color: #24443e;
     border-radius: 8px;
+}
+    ul {
+        display: flex;
+        justify-content: flex-end;
     }
 
 footer {
