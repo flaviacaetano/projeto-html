@@ -4,7 +4,7 @@ header {
     justify-content: space-between;
     align-items: center;
     background: #2c11c5;
-    color: rgba(249, 244, 244, 0.147);
+    color: rgba(126, 118, 118, 0.147);
     padding: 16px;
 }
 
@@ -23,36 +23,34 @@ h1 {
     font:bolder;
     font-family: 'Times New Roman', Times, serif;
     font-size: x-large;
-    color: #b4b9c0;
-
+    color: #052f5c;
     text-align: center;
 }
 
 h2 {
     font-size: x-large;
-    color: #1be2c4;
+    color: #000;
     text-align: center;
     padding: 10px;
 }
 
 p {
     font-size: medium;
-    color: white;
+    color: #000;
     line-height: 1.6;
     padding: 10px;
     text-align: center;
 }
 
 a {
-    justify-content: space-around;
+    justify-content: space-around
     color: #1936d8;
     font-size: medium;        
 }
 
 img {
-    size: 400px;
-    padding-left: 100px;
-    max-block-size: 400px;
+    padding-left: 200px;
+    max-block-size: 300px;
     align-self: center;
         
 }
