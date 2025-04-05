@@ -1,0 +1,210 @@
+form {
+    max-width: 500px;
+    margin: 20px auto;
+    display: flex;
+    flex-direction: column;
+}
+body {
+    background-image: url(./Imagem\ do\ WhatsApp\ de\ 2025-01-27\ à\(s\)\ 14.48.27_34be6bfe.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+
+}
+
+
+form label{
+    font-size: 1.2rem;
+    margin-bottom: 5px;
+    font-weight: bold;
+    
+}
+form input,form textarea{
+    padding: 10px;
+    margin-bottom: 15px;
+    border:  1px solid black ;
+    border-radius: 1.2rem ;    background: #f8f5f1;
+
+    cursor: pointer;
+    border-radius: 5px;
+    
+}
+form button {
+    background: #ffb400;
+    border: none;
+    padding: 12px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    border-radius: 5px;
+}
+form button:hover {
+}
+/*seçao do mapa*/ 
+    .map-container {
+        width: 80%;
+        max-width: 800px;
+        margin: auto;
+    }
+.typing {
+    font-family: Arial, sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: 2px solid black; /* Simula um cursor */
+    width: 0;
+    animation: typing 3s steps(20, end) forwards, blinkCursor 0.7s infinite;
+}
+@keyframes typing {
+    from {
+        width: 0;
+    }
+    to {
+        width: 100%;
+    }
+
+}
+@keyframes blinkCursor {
+     50% {
+        border-color: transparent;
+    }
+
+}
+    .container {
+        width: 90%;
+        max-width: 1200px;
+        margin: auto;
+        text-align: center;
+    
+    }
+    .grid {
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+        flex-wrap: wrap; /*garante que as inmagens se ajuste em telas manores*/
+    
+
+    }
+
+    body{
+        font-family: Arial, Helvetica, sans-serif;
+        margin: 0;
+        padding: 0;
+    }
+    header{
+        
+        
+        background-color: hsl(230, 78%, 23%);
+
+        background-size: cover;
+        background-position: center;
+        color: rgb(247, 243, 243);
+        padding: 5px 3px;
+        text-align: center;
+        border-radius: 10px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+    .card {
+        background: #fff;
+        border-radius: 8px;
+        box-shadow: 0 4px 8px rgba(0, 0 ,0 ,0.1);
+        padding: 15px;
+        max-width: 200px;
+        text-align: center;
+    
+    }
+    .card img {
+        width: 100%;
+        border-radius: 8px;
+        
+    }
+    #search-button img{
+        width: 20px;
+    }
+    body{
+        border: 5px solid #3498db;
+        border-radius: 30px;
+        padding: 20px;
+        box-shadow:  0 4px 10px rgba(0,0,0,0.1);
+        transition: all 0.3 ease-in-out;
+        
+    }
+    body:hover{
+        border-color: rgb(86, 194, 86);
+        box-shadow: 0 6px 15px rgba(0,0,0,0.2);
+        background-size: cover;
+    }
+    .card {
+        transition: transform 0.3s ease-in-out;
+    }
+    .card:hover {
+        transform: scale(1.1);
+    }
+      
+    h1 {
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+
+    h1 {
+        font-size: 2.5em;
+        font-weight: bold;
+        color: white;
+        text-align: center;
+        overflow: hidden;
+        white-space: nowrap;
+        border-right: 3px solid transparent;
+        width: 0;
+        animation: typing 4s steps(20, end) infinite alternate;
+    }
+
+/* Estilos para campos e mensagens de erro */
+input, textarea {
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc; /* Borda padrão */
+    border-radius: 5px;
+    background: #f8f5f1;
+    transition: border-color 0.3s, box-shadow 0.3s; /* Transição suave para borda e sombra */
+}
+
+input.error, textarea.error ,input.error:focus, textarea.error:focus {
+    border-color: red; /* Define a borda vermelha */
+    outline: none; /* Remove o contorno padrão */
+    box-shadow: 0 0 5px red; /* Adiciona um leve brilho vermelho */
+}
+
+input.error, textarea.error {
+    border-color: red;
+    outline: none;
+    box-shadow: 0 0 5px red;
+}
+
+.error-message {
+    color: red;
+    font-size: 0.9rem;
+    display: none;
+}
+
+.error-message.visible {
+    display: block;
+}
+
+button {
+    background: #ffb400;
+    border: none;
+    padding: 12px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+/* Estilo para o botão no hover */
+button:hover {
+    background: #ff9900;
+}
+.visible {
+    display: block;
+}
+
+
+

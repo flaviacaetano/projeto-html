@@ -1,0 +1,127 @@
+
+    <!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Turismo em Três Marias</title>
+    <link rel="stylesheet" href="./designe.css">
+    <link rel="stylesheet" href="./praia.html">
+     <script src="./pag.js" defer></script>
+     <link rel="stylesheet" href="./c">
+   
+</head>
+<body>
+
+     
+    <header class="hero">
+    <button id="search-button">
+        <img src="./lupa.jpg" alt="icone lupa">
+
+    </button>
+      <input type="text" id=" search-bar"
+      placeholder="pesquisar..."> 
+    
+     <h1>Bem-vindo a Três Marias, MG </h1>
+        <p>Descubra a beleza natural, aventura e lazer!</p>
+        <a href="#atracoes" class="btn">Explorar</a>
+    </header>
+    
+
+    
+    <section id="atracoes" class="container">
+        <h2>Principais Atrações</h2>
+        <div class="grid">
+            <div class="card">
+                <a href="./represa.html"><img src="represa.jpg" alt=""></a>
+        
+                <h3>Represa de Três Marias</h3>
+                <p>Ótima para passeios de barco, pesca esportiva e esportes aquáticos.</p>
+            </div>
+            <div class="card">
+                <a href="./praia.html" > <img src="./praia.jpg" alt=""></a>
+                <h3>Praia Mar de Minas</h3>
+                <p>Uma praia de água doce com quiosques e lazer para toda a família.</p>
+            </div>
+            <div class="card">
+                <img src="cachoeira.jpg" alt="cachoeiras">
+                <h3>cachoeiras</h3>
+                <p>vista incrivel trilha de facil ascesso.</p>
+            </div>
+        </div>
+    </section>
+
+    
+    <section id="oque-fazer" class="parallax">
+        <h2>O Que Fazer?</h2>
+        <ul>
+            <li>Pesca esportiva no lago</li>
+            <li>Passeios de barco banana bot e jet ski</li>
+            <li>Trilhas e cachoeiras </li>
+            <li>comida tipica e gastronomia mineira</li>
+        </ul>
+    </section>
+
+    
+    <section id="hospedagem" class="container">
+        <h2>hospedagem</h2>
+        <div class="grid">
+            <div class="card">
+                <a href="https://www.instagram.com/hotelgrandelago/"><img src="./hotel.jpg" alt=""></a>
+            
+                <h3>Hotel grande lago</h3>
+                <p>Conforto e vista incrível para a represa.</p>
+            </div>
+            <div class="card">
+                <img src="./rancho.jpg" alt="rancho pedro alvinegro">
+                <h3>Rancho</h3>
+                <p>As maegens da represa ,vista maravilhosa</p>
+            </div>
+        </div>
+    </section>
+
+
+</body>
+</html>
+    
+<section id="contato" class="container">
+    <h2>Fale Conosco</h2>
+    <p>Entre em contato para mais informações sobre turismo em Três Marias.</p>
+    <form id="contato-form" action="https://formspree.io/f/xdoqbnlo" method="POST">
+        <label for="nome">Nome:</label>
+        <input type="text" id="nome" name="nome" required>
+        <span id="nome-error" class="error-message">Usuário inválido</span>
+
+        <label for="email">E-mail:</label>
+        <input type="email" id="email" name="email" required>
+        <span id="email-error" class="error-message">E-mail inválido</span>
+
+        <label for="mensagem">Mensagem:</label>
+        <textarea id="mensagem" name="mensagem" rows="4" required></textarea>
+        
+        <button type="submit" class="btn">Enviar</button>
+    </form>
+</section>
+
+
+    
+    <section id="mapa" class="container">
+        <h2>Localização</h2>
+        <p>Veja onde fica Três Marias, MG.</p>
+        <div class="map-container">
+            <div class="map-container">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d235346.91164096327!2d-45.8820743!3d-18.2569826!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94a6643d9a0e4cf1%3A0x6fefe73b65d0d9b3!2sTr%C3%AAs%20Marias%2C%20MG!5e0!3m2!1spt-BR!2sbr!4v1616598347955!5m2!1spt-BR!2sbr"
+                width="100%" height="200"
+                style="border: 0;" allowfullscreen=""
+                loading="lazer"
+                frameborder="0"></iframe>
+
+            </div>
+        </div>
+    </section>
+    <footer>
+        <p>&copy; 2025 Turismo em Três Marias - Desenvolvido para divulgação turística</p>
+    </footer>
+
+</body>
+</html>
