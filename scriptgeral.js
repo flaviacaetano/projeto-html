@@ -1,7 +1,3 @@
-document.addEventListener("DOMContentLoaded", function() {
-    alert("Bem-vindo ao Três Marias, MG!");
-});
-
 function changeTitle() {
     const header = document.querySelector("header h1");
     header.textContent = "Explorando as Maravilhas de Três Marias!";
@@ -17,4 +13,3 @@ images.forEach(image => {
     image.addEventListener("mouseout", function() {
         image.style.border = "none";
     });
-});
